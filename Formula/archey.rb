@@ -6,14 +6,8 @@ class Archey < Formula
     head "https://github.com/siutsin/archey-osx.git"
   
     stable do
-      url "https://github.com/siutsin/archey-osx/archive/1.6.0.tar.gz"
-      sha256 "0f0ffcf8c5f07610b98f0351dcb38bb8419001f40906d5dc4bfd28ef12dbd0f8"
-  
-      # Fix double percent sign in battery output
-      patch do
-        url "https://github.com/siutsin/archey-osx/commit/cd125547d0936f066b64616553269bf647348e53.diff?full_index=1"
-        sha256 "c03b80e4d5aa114b81ac04bfa77c46055fe01764ae877a8a061f3d43c9de8a72"
-      end
+      url "https://github.com/siutsin/archey-osx/archive/1.6.1.tar.gz"
+      sha256 "2f7a1be906f6ad9602afff82294766eb654125b574a1f0a3858a2000182befcc"
     end
   
     bottle :unneeded
