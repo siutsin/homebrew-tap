@@ -6,8 +6,8 @@ class Archey < Formula
     head "https://github.com/siutsin/archey-osx.git"
   
     stable do
-      url "https://github.com/siutsin/archey-osx/archive/1.6.1.tar.gz"
-      sha256 "2f7a1be906f6ad9602afff82294766eb654125b574a1f0a3858a2000182befcc"
+      url "https://github.com/siutsin/archey-osx/archive/1.6.2.tar.gz"
+      sha256 "775fa9212306bbc6b84f8f4dc3da37e7ecada4c10a3df15b93ee9c877bf0dcb8"
     end
   
     bottle :unneeded
