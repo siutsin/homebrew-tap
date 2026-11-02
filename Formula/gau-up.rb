@@ -1,25 +1,25 @@
 class GauUp < Formula
   desc "Update many git repositories at once"
   homepage "https://github.com/siutsin/9up"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/siutsin/9up/releases/download/v0.1.0/nine-up-aarch64-apple-darwin.tar.xz"
-      sha256 "9718f2370c6dc2ffcbaac3c1d2bfebcda3e4694d1b33f6449de73b94935f9aeb"
+      url "https://github.com/siutsin/9up/releases/download/v0.2.0/nine-up-aarch64-apple-darwin.tar.xz"
+      sha256 "45cf5f4d239d8e56796e0ffee71d4398d0da840b161801cf820094d7749c1466"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/siutsin/9up/releases/download/v0.1.0/nine-up-x86_64-apple-darwin.tar.xz"
-      sha256 "8e5b825c2c8ed5b4ad28b7a0fde4fb374e4171f5d32530f6c98a29cfcb44ff78"
+      url "https://github.com/siutsin/9up/releases/download/v0.2.0/nine-up-x86_64-apple-darwin.tar.xz"
+      sha256 "372e6c6f1de3a95e1dbb9e92d1c255d14fca89b2bb3e5286fa3fab44bb5dab32"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/siutsin/9up/releases/download/v0.1.0/nine-up-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0bbee8cb4725c79f3540e1367dce673bbd5b29a83c6206963d7f25de21d19dfb"
+      url "https://github.com/siutsin/9up/releases/download/v0.2.0/nine-up-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3407edfd4beaeba7bbc588f77e7cfd86b43b6280e0ed1454dbdbdd45fc380276"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/siutsin/9up/releases/download/v0.1.0/nine-up-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "07cdc1232635c8b539b53585e3d483f9c881ee9c78d26fd39b6d4883d29e100e"
+      url "https://github.com/siutsin/9up/releases/download/v0.2.0/nine-up-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "07b3cf900e67a78f5f1ba5ead4bdb155d4a6d8f2b66dbddd57abbedaef6a2647"
     end
   end
   license "MIT"
